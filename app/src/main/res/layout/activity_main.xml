@@ -1,0 +1,68 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Your Favourite Fruit"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="15dp"/>
+
+        <TextView
+            android:id="@+id/fruit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🍎 Apple"
+            android:textSize="22sp"
+            android:padding="15dp"
+            android:background="#E8F5E9"/>
+
+        <TextView
+            android:id="@+id/fruit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🍌 Banana"
+            android:textSize="22sp"
+            android:padding="15dp"
+            android:background="#FFF9C4"/>
+
+        <TextView
+            android:id="@+id/fruit3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🍇 Grapes"
+            android:textSize="22sp"
+            android:padding="15dp"
+            android:background="#E1BEE7"/>
+
+        <TextView
+            android:id="@+id/fruit4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🥭 Mango"
+            android:textSize="22sp"
+            android:padding="15dp"
+            android:background="#FFE0B2"/>
+
+        <TextView
+            android:id="@+id/fruit5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🍊 Orange"
+            android:textSize="22sp"
+            android:padding="15dp"
+            android:background="#FFCCBC"/>
+
+    </LinearLayout>
+
+</ScrollView>
