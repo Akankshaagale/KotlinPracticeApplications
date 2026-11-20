@@ -1,0 +1,9 @@
+
+<resources>
+    <string name="app_name">Student Registration</string>
+    <string name="student_registration">Student Registration</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_phone">Enter Phone Number</string>
+    <string name="register">Register</string>
+</resources>
